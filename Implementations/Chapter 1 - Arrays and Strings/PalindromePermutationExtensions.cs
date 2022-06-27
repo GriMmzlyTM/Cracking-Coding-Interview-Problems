@@ -4,6 +4,12 @@ namespace Implementations.Chapter_1___Arrays_and_Strings;
 
 public static class PalindromePermutationExtensions {
 
+    /// <summary>
+    /// O(N) space complexity
+    /// O(2 * N) time complexity, simplified to O(N)
+    /// </summary>
+    /// <param name="str"></param>
+    /// <returns></returns>
     public static bool PalindromePermutation(this string str) {
         var t = new Dictionary<char, int>();
         
@@ -22,6 +28,12 @@ public static class PalindromePermutationExtensions {
         return true;
     }
     
+    /// <summary>
+    /// O(1) space complexity
+    /// O(N) time complexity
+    /// </summary>
+    /// <param name="str"></param>
+    /// <returns></returns>
     public static bool PalindromePermutation_SortedArray(this string str) {
         var sortedString = str.ToLower().SortString();
 
