@@ -20,11 +20,12 @@ public static class OneAwayExtensions {
         for (int i = 0; i < primeString.Length; i++) {
             if ( j > shorterString.Length - 1 || primeString[i] != shorterString[j]) {
                 editCount++;
+                if (editCount > 1) return false;
                 if (primeString.Length - i > shorterString.Length - j) continue;
             }
             j++;
         }
 
-        return editCount <= 1;
+        return true;
     }
 }
