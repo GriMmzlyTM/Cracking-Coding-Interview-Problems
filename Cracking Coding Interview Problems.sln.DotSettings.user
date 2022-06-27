@@ -1,0 +1,9 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=af439a38_002De9ae_002D489d_002Db60a_002D1207dba3791b/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="IsUniqueStringTests" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::372E9D8A-CC82-4300-BE97-7BD66BA6EBE6::net6.0::TestProject1.Chapter_1___Arrays_and_Strings_Tests.IsUniqueStringTests&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::372E9D8A-CC82-4300-BE97-7BD66BA6EBE6::net6.0::TestProject1.Chapter_1___Arrays_and_Strings_Tests.Permutation&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::372E9D8A-CC82-4300-BE97-7BD66BA6EBE6::net6.0::TestProject1.Chapter_1___Arrays_and_Strings_Tests.TestURLify.TestUrlify&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::372E9D8A-CC82-4300-BE97-7BD66BA6EBE6::net6.0::TestProject1.Chapter_1___Arrays_and_Strings_Tests.TestPalindromePermutation&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
