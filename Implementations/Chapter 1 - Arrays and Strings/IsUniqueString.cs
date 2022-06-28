@@ -5,17 +5,10 @@ public static class IsUniqueString {
     // Does Case sensitive uniqueness
     public static bool IsUnique_UsingHash(string s) {
         var existingValues = new HashSet<char>();
-        
+
         for (int i = 0; i < s.Length; i++) {
             if (!existingValues.Add(s[i])) return false;
         }
-        
-        /* Foreach implementation, slower but favorable.
-    
-        foreach (var c in s) {
-            if (!existingValues.Add(c)) return false;
-        }
-        */
 
         return true;
     }

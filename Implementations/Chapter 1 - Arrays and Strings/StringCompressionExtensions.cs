@@ -3,6 +3,13 @@
 namespace Implementations.Chapter_1___Arrays_and_Strings; 
 
 public static class StringCompressionExtensions {
+    
+    /// <summary>
+    /// O(N) time
+    /// O(N) space complexity (Stringbuilder)
+    /// </summary>
+    /// <param name="str"></param>
+    /// <returns></returns>
     public static string CompressString_Brute(this string str) {
         if (str.Length <= 1) return str;
 
